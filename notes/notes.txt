@@ -1,0 +1,53 @@
+What is Go good at?
+------------------
+problem it's trying to solve: google team built. 
+they used c++, java and python
+
+each language has it's advantages and disadvantages
+
+c++: high performance, type safety - slow compilation, complex syntax
+
+java: rapid compilation, type safety - complicated ecosystem
+
+python: ease of use - lack of type safety, relatively slow
+
+solution: GO!
+
+
+Characteristics
+---------------
+~Fast compliation
+~Fully complied 
+~Strongly typed 
+~Concurrent by default (what does that mean? multithreading was expected)
+~Garbage collected
+~Simplicity as a core value
+
+
+So wtf is it good at?
+-------------------
++ web services
++ web apps
+~ task automation (syntax is almost as light as scripting languages)
+~ gui/thick-client (expir)
+~ ml
+???
+
+
+
+Syntax
+------
+module ~= workspace
+init a module go mod init name of module
+
+go recognizes module path
+
+Quirks
+-----
+packages that aren't being used will throw a compliation error
+formatted with tabs
+whitespace isn't critical but encouraged
+compiler adds semicolons
+
+Opinions
+--------
