@@ -42,12 +42,31 @@ init a module go mod init name of module
 
 go recognizes module path
 
+float
+:= -> implicit data type
+const keyword -> constant
+const() -> constant block
+: -> create a slice from beginning to end (python)
 Quirks
 -----
 packages that aren't being used will throw a compliation error
 formatted with tabs
 whitespace isn't critical but encouraged
 compiler adds semicolons
+comiler will complain about unused variables!
+pointer data types are available, but they're not absurd
+no pointer arith
 
+value of constant must be determined by compile time
+implicit type constant & explict
+iota resets in each constant block!
+iota increments each time the keyword is used
+
+arrays are static
+slices are dynamic
+slices are built ontop of arrays
+slice is kinda like a pointer. all changes to the array and the slice are the same
+slice is not a fixed size entity
 Opinions
 --------
+ & float
